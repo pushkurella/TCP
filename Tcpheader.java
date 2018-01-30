@@ -18,7 +18,7 @@ public class Tcpheader {
 		sb.append(sequenceNumber);
 		sb.append(acknowledgeNumber);
 		sb.append(flags_data);
-		System.out.println(sb.toString());
+		System.out.println(sb.toString()); 
 	}
 
 }
